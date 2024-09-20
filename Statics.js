@@ -12,7 +12,7 @@ let lives = 2;
 console.log("Lives left: "+ lives);
 let ammo = 154;
 console.log("Ammo: "+ ammo);
-let webs = 23;
+let webs = 23.5;
 console.log("Number of webs: " + webs);
 let battery = 20;
 console.log("Battery power: " + battery);
