@@ -15,6 +15,7 @@ body{
   padding: 20px;
 }
 .article{
+  
   border: 4px inset rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   background: #eee;

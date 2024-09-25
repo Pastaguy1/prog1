@@ -20,11 +20,16 @@
       <p class="articleText1" id="articleText1">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ab neque suscipit explicabo voluptatibus adipisci nesciunt, at ipsum fuga? Maxime ea quae nesciunt alias culpa quam, distinctio dolor totam sint.
       </p>
-      <img id="teacakeImg" class="articleImg" src="images/teacakes.jpg" alt="photo of teacakes">
+      <img id="teacakeImg" class="articleImg" src="images/gekketaart.jpg" alt="photo of teacakes">
     </article>
   </div>
 
   <script>
+      let text = document.getElementById("id1");
+    text.style.color = 'red';
+    text.innerText += " HALLO";
+    const image = document.getElementById('gekketaartImg'); 
+    image.src = 'images/gekketaart.jpg';
     let currentHour = new Date().getHours();
 
 if (currentHour >= 15){
