@@ -21,10 +21,10 @@ function berekenHypotenusa(lengte, hoogte) {
 let langeZijde = berekenHypotenusa(3, 4);
 console.log(langeZijde);
 
-function berekenGemiddelde(getallen) {
-    let som = getallen.reduce((acc, curr) => acc + curr, 0);
-    return som / getallen.length;
+function gemiddelt(getal1, getal2, getal3, getal4, getal5, getal6, getal7) {
+    let totaal = getal1 + getal2 + getal3 + getal4 + getal5 + getal6 + getal7;
+    return totaal / 7;
 }
 
-let gemiddelde = berekenGemiddelde([10, 20, 30, 40, 50, 60, 70]);
-console.log(gemiddelde);
+let gemiddeld = gemiddelt(10, 20, 30, 40, 50, 60, 70);
+console.log(gemiddeld);
