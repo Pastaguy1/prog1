@@ -30,10 +30,11 @@
     text.innerText += " HALLO";
     const image = document.getElementById('gekketaartImg'); 
     image.src = 'images/gekketaart.jpg';
-    let currentUur = new Date().getUurs();
 
-if (currentUur >= 15){
-  document.body.classList.add('dark');
+    let currentUur = new Date().getHours();
+
+    if (currentUur >= 11){
+    document.body.classList.add('dark');
 }
   </script>
 </body>
